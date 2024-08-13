@@ -21,7 +21,7 @@ namespace GuitarAppV1
                         $"     {guitar.Spec.BackWood} back and siddes,\n" +
                         $"     {guitar.Spec.TopWood} top,\n" +
                         $"     {guitar.Spec.NumStrings} strings.\n" +
-                        $"  You can have it for  ${guitar.Price}!");
+                        $"  You can have it for  {guitar.Price} dollars!");
                 }
             }
             else
@@ -34,7 +34,7 @@ namespace GuitarAppV1
         {
             inventory.AddGuitar("001", 4000, new GuitarSpec(Builder.Collings, "CJ", Models.Type.Acoustic, Wood.IndianRosewood, Wood.Sitka, 6));
             inventory.AddGuitar("002", 1500, new GuitarSpec(Builder.Fender, "Stratocaster", Models.Type.Electric, Wood.Alder, Wood.Alder, 6));
-            inventory.AddGuitar("003", 1149.50, new GuitarSpec(Builder.Fender, "Stratocaster", Models.Type.Electric, Wood.Alder, Wood.Alder, 6));
+            inventory.AddGuitar("003", 2000, new GuitarSpec(Builder.Fender, "Stratocaster", Models.Type.Electric, Wood.Alder, Wood.Alder, 6));
             
         }
     }
