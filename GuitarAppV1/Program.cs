@@ -18,7 +18,7 @@ namespace GuitarAppV1
                 foreach (var guitar in matchingGuitars)
                 {
                     Console.WriteLine($"  We have a {guitar.Spec.Builder} {guitar.Spec.Model} {guitar.Spec.Type} guitar:\n" +
-                        $"     {guitar.Spec.BackWood} back and sdiedes,\n" +
+                        $"     {guitar.Spec.BackWood} back and siddes,\n" +
                         $"     {guitar.Spec.TopWood} top,\n" +
                         $"     {guitar.Spec.NumStrings} strings.\n" +
                         $"  You can have it for  ${guitar.Price}!");
